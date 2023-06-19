@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE datasets SYSTEM "integration.dtd">
+<datasets>
+	<devices>
+		<device name='iPhone 11' os='IOS' version='15.6'/>
+		<device name='iPhone 14 Pro Max' os='IOS' version='16'/>
+		<device name='Google Pixel 6' os='ANDROID' version='12.0'/>
+	</devices>
+	<environments>
+		<environment value='staging'/>
+		<environment value='uat'/>
+		<environment value='preprod'/>
+	</environments>
+	<testcases>
+		<testcase value='Initial'/>
+		<testcase value='Drawing'/>
+		<testcase value='PinchBalloons'/>
+		<testcase value='Login'/>
+		<testcase value='AchievementContribution'/>
+		<testcase value='DailyWalk'/>
+		<testcase value='TapTap'/>
+		<testcase value='DailyCheckIn'/>
+		<testcase value='BalanceAndUTurn'/>
+		<testcase value='symbolsAndNumbers'/>
+		<testcase value='PDFunctional'/>
+		<testcase value='Typing'/>
+		<testcase value='SixMinuteWalk'/>
+	</testcases>
+</datasets>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT datasets (devices*, environments*, testcases*)>
+<!ELEMENT devices (device*)>
+<!ELEMENT device EMPTY >
+<!ATTLIST device name CDATA #REQUIRED os CDATA #REQUIRED version CDATA #REQUIRED>
+<!ELEMENT environments (environment*)>
+<!ELEMENT environment EMPTY >
+<!ATTLIST environment value CDATA #REQUIRED>
+<!ELEMENT testcases (testcase*)>
+<!ELEMENT testcase EMPTY >
+<!ATTLIST testcase value CDATA #REQUIRED>
